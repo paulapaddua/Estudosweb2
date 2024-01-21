@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Cadastro de animais</h1>
+	
+	<form action="index.jsp" method="post">
+		<fieldset>
+			<legend>Dados do animal</legend>
+			<p>
+			<label for="nome">nome:</label>
+			<input type="text" id="nome" name="nome">
+			</p>
+			
+			<p>
+			<label for="nome">idade:</label>
+			<input type="text" id="idade" name="idade">
+			</p>
+			
+			<p>
+			<label for="nome">peso:</label>
+			<input type="text" id="peso" name="peso">
+			</p>
+			
+			<p>
+			Espécie:
+			<input type="radio" id="canino" name="especie" value="canino">
+			<label for="canino">canino</label>
+			
+			<input type="radio" id="felino" name="especie" value="felino">
+			<label for="felino">felino</label>
+			
+			<p><input type="submit" value="cadastrar animal"></p>
+			
+		</fieldset>
+	</form>
+</body>
+</html>
